@@ -50,13 +50,13 @@ Requirements:
 
 # Usage 
 ### Basic Enumeration
-``` .\ARES.ps1 -EnumDomain ```
+``` .\ares.ps1 -EnumDomain ```
 
 ### Password Spraying (safe with delay)
-``` .\ARES.ps1 -PasswordSpray -UserList users.txt -Password Winter2025! -Delay 5 ```
+``` .\ares.ps1 -PasswordSpray -UserList users.txt -Password Winter2025! -Delay 5 ```
 
 ### High-Risk Operations (require explicit confirmation)
-``` .\ARES.ps1 -DisableDefender -ConfirmUnsafe ```
+``` .\ares.ps1 -DisableDefender -ConfirmUnsafe ```
 
 # Collects information but does not perform attacks.
 
